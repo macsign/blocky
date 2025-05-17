@@ -18,6 +18,7 @@ import (
 // FILTERED // the query was filtered by query type
 // NOTFQDN // the query was filtered as it is not fqdn conform
 // SPECIAL // the query was resolved by the special use domain name resolver
+// SAFESEARCH // the query was resolved by the safe search resolver
 // )
 type ResponseType int
 
